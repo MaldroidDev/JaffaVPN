@@ -19,16 +19,19 @@
         box-sizing: border-box;
     }
     header, footer {
-        background: #121212; /* Dark shade for consistency with cards */
+        background: #222; /* Same as card background */
         color: white;
         text-align: center;
         padding: 40px 20px;
+        margin: 20px 0;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Card-like shadow */
     }
     section {
         background: #121212; /* Slightly lighter black for differentiation */
         margin: 20px 0;
         padding: 20px;
         border: 1px solid #333; /* Subtle borders for structure */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Consistent shadow for depth */
     }
     h1, h2 {
         text-align: center;
@@ -49,8 +52,8 @@
         padding: 20px;
         flex-basis: 30%;
         background: #222; /* Dark backgrounds for cards */
-        box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Stronger shadow for depth */
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5);
     }
     .card:hover {
         transform: scale(1.05);
