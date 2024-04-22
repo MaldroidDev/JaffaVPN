@@ -12,27 +12,21 @@
         background: #000; /* True black background */
         color: #cfcfcf; /* Soft white text for readability */
     }
-    .container, header, footer {
+    .container, header, footer, section {
         max-width: 1200px;
-        margin: auto;
-        padding: 50px 20px;
-        box-sizing: border-box;
-    }
-    section, header, footer {
-        background: #121212; /* Slightly lighter black for differentiation */
-        margin: 20px 0;
+        margin: 20px auto;
         padding: 20px;
+        box-sizing: border-box;
+        background: #121212; /* Slightly lighter black for differentiation */
         border: 1px solid #333; /* Subtle borders for structure */
         text-align: center;
     }
-    h1, h2 {
-        text-align: center;
-    }
-    p, li {
+    h1, h2, p, li {
         line-height: 1.6;
     }
     ul {
-        margin: 20px;
+        padding: 0;
+        list-style-type: none;
     }
     .features, .deals, .testimonials {
         display: flex;
@@ -72,7 +66,6 @@
         to { opacity: 1; }
     }
     .fadeIn {
-        opacity: 0;
         animation: fadeIn 3s forwards;
     }
 </style>
