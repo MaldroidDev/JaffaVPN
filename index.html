@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JaffaVPN - Your Secure Internet</title>
+<title>JaffaVPN - Secure Your Digital Life</title>
 <style>
     body, html {
         margin: 0;
         padding: 0;
-        font-family: Arial, sans-serif;
-        background: #f4f4f4;
-        color: #333;
+        font-family: 'Arial', sans-serif;
+        background: #000; /* True black background */
+        color: #cfcfcf; /* Soft white text for readability */
     }
     .container {
         max-width: 1200px;
@@ -19,16 +19,16 @@
         box-sizing: border-box;
     }
     header {
-        background: #007BFF;
+        background: #222; /* Darker shade for header */
         color: white;
         text-align: center;
         padding: 40px 20px;
     }
     section {
-        background: white;
+        background: #121212; /* Slightly lighter black for differentiation */
         margin: 20px 0;
         padding: 20px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        border: 1px solid #333; /* Subtle borders for structure */
     }
     h1, h2 {
         text-align: center;
@@ -48,23 +48,32 @@
         margin: 10px;
         padding: 20px;
         flex-basis: 30%;
-        background: #fff;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        background: #222; /* Dark backgrounds for cards */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Stronger shadow for depth */
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.8);
     }
     .button {
         display: block;
         width: 100%;
         padding: 10px;
         margin-top: 20px;
-        background: #007BFF;
+        background: #007BFF; /* Blue button for a pop of color */
         color: white;
         text-decoration: none;
         text-align: center;
         border: none;
         cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+    .button:hover {
+        background-color: #0056b3;
     }
     footer {
-        background: #333;
+        background: #333; /* Dark footer */
         color: white;
         text-align: center;
         padding: 10px 0;
@@ -82,34 +91,34 @@
 <body>
 <header>
     <h1>Welcome to JaffaVPN</h1>
-    <p>Your gateway to a secure and unrestricted internet.</p>
+    <p>Experience secure, unrestricted internet access.</p>
 </header>
 
 <div class="container">
     <section id="why" class="fadeIn">
         <h2>Why Choose JaffaVPN?</h2>
-        <p>JaffaVPN provides industry-leading security, exceptional speed, and worldwide server access to keep your online presence safe and unrestricted. With our cutting-edge technology, you can stream, browse, and download with complete anonymity and without any restrictions, no matter where you are in the world.</p>
+        <p>JaffaVPN offers unmatched privacy and security features, providing you with the freedom to access the internet without restrictions. Our VPN service ensures your digital safety on any network.</p>
         <ul>
-            <li>Secure your internet connection on public Wi-Fi networks.</li>
-            <li>Bypass geo-restrictions and access content from anywhere in the world.</li>
-            <li>Prevent bandwidth throttling by ISPs and enjoy high-speed internet access.</li>
+            <li>Protect your data from hackers on public Wi-Fi networks.</li>
+            <li>Access geo-restricted content from anywhere in the world.</li>
+            <li>Enhance streaming and browsing speeds with our optimized network.</li>
         </ul>
     </section>
 
     <section id="features" class="fadeIn">
-        <h2>Our Key Features</h2>
+        <h2>Key Features</h2>
         <div class="features">
             <div class="card">
-                <h3>Advanced Encryption</h3>
-                <p>We use AES-256 encryption to protect your data, ensuring that your connection is secure at all times.</p>
+                <h3>State-of-the-Art Encryption</h3>
+                <p>Using AES-256 encryption, we ensure your data remains secure from prying eyes.</p>
             </div>
             <div class="card">
-                <h3>Zero Logging</h3>
-                <p>Your privacy is paramount. We ensure that no browsing logs are stored, ever.</p>
+                <h3>Strict No-Logs Policy</h3>
+                <p>We guarantee your online activities are never recorded, ensuring your privacy.</p>
             </div>
             <div class="card">
-                <h3>Simultaneous Connections</h3>
-                <p>Connect up to 5 devices simultaneously with a single JaffaVPN account.</p>
+                <h3>Multiple Device Connections</h3>
+                <p>One account lets you connect up to 5 devices simultaneously, keeping all your devices protected.</p>
             </div>
         </div>
     </section>
@@ -118,34 +127,34 @@
         <h2>Exclusive Deals</h2>
         <div class="deals">
             <div class="card">
-                <h3>Monthly Subscription</h3>
-                <p>Enjoy full VPN access on a month-to-month basis for just $12 per month.</p>
-                <button class="button">Get Started</button>
+                <h3>Monthly Plan</h3>
+                <p>Full VPN access for $12 per month. Ideal for short-term users.</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=69DB-k-cNgbS0gKs" class="button">Subscribe Now</a>
             </div>
             <div class="card">
-                <h3>Yearly Plan</h3>
-                <p>Opt for our annual subscription and save over 40%, priced at just $7 per month.</p>
-                <button class="button">Get Started</button>
+                <h3>Annual Plan</h3>
+                <p>Save more with our annual plan at $7 per month, billed yearly.</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=69DB-k-cNgbS0gKs" class="button">Subscribe Now</a>
             </div>
             <div class="card">
-                <h3>Lifetime Access</h3>
-                <p>Pay once, enjoy forever. Lifetime access available for $199 only.</p>
-                <button class="button">Get Started</button>
+                <h3>Lifetime Membership</h3>
+                <p>One-time payment for lifetime access, only $199.</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=69DB-k-cNgbS0gKs" class="button">Subscribe Now</a>
             </div>
         </div>
     </section>
 
     <section id="testimonials" class="fadeIn">
-        <h2>What Our Customers Say</h2>
+        <h2>Customer Testimonials</h2>
         <div class="testimonials">
             <div class="card">
-                <p>“I've been using JaffaVPN for the past two years, and it's flawless. It's incredibly reliable and the speed is phenomenal!” - Jamie</p>
+                <p>“Using JaffaVPN has transformed my internet experience. It's fast, reliable, and secure.” - Taylor</p>
             </div>
             <div class="card">
-                <p>“Switching to JaffaVPN was the best decision for my family's online security. Easy to use and very effective.” - Maria</p>
+                <p>“Fantastic service with stellar customer support. Problems are solved within minutes!” - Jordan</p>
             </div>
-            <div class="card">
-                <p>“Their customer support is top-notch. Had a minor issue and it was resolved in no time!” - Chen</p>
+            <div the="card">
+                <p>“Best VPN service for privacy-minded individuals. Highly recommended!” - Casey</p>
             </div>
         </div>
     </section>
